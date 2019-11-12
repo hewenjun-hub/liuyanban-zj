@@ -1,0 +1,132 @@
+		input{
+			font: 18px/1em 微软雅黑;
+			border: none;
+		}
+		.container{
+			height: 670px;
+		}
+		span{
+			display: inline-block;
+		}
+		.big{
+			width: 1200px;
+			margin: 20px auto;
+			position: relative;
+		}
+		div.jump span{
+			display: inline-block;
+			width: 50px;
+			height: 30px;
+			background: salmon;
+			cursor: pointer;
+			text-align: center;
+			margin: 13px 6px;
+			float: left;
+		}
+		#links input{
+			margin-left:5px;
+			margin-top: 13px;
+		}
+		div#links{
+			float: left;
+			background: none;
+		}
+		div.container img.show_face{
+			width: 48px;
+			height: 48px;
+		}
+		.show_reply,.show_reset{
+			display: none;
+		}
+		.message,.admin,.index_admin_reply{
+			display: none;
+			margin: 150px 0px 0px 330px;
+			padding: 20px 100px 20px 100px;
+			background: #eee;
+			position: fixed;
+			top: 0px;
+		}
+		.message input,.admin input,#admin_reply_close,#admin_reply_bt{
+			width: 300px;
+			height: 30px;
+			margin-bottom:10px ;
+			background: none;
+			border: none;
+			border-bottom:2px solid black ;
+		}
+		input#bt1,#message_close,#index_fabiao,#admin_bt,#admin_close,#admin_reply_close,#admin_reply_bt{
+			width: 100px;
+			background: #FA8072;
+			margin: 20px 30px;
+		}
+		textarea{
+			width: 330px;
+			height: 130px;
+			font: 18px/1em 微软雅黑;
+		}
+		#index_fabiao{
+			margin: 10px 0px 10px 0px;
+			width: 100px;
+			height: 30px;
+		}
+		.admin{
+			padding: 50px 100px;
+		}
+		.admin span{
+			font: 20px/1em 微软雅黑;
+			display: inline-block;
+			width: 80px;
+			text-align: center;
+		}
+		.index_admin_reply{
+			font: 20px/1em 微软雅黑;
+		}
+		.index_admin_reply span{
+			margin: 10px 0px;
+		}
+		.index_admin_reply #admin_name,.show_author{
+			background: #9fc;
+			color: brown;
+		}
+		input.show_reset{
+			margin-left:40px;
+			margin-right:20px;
+		}
+		.show_title{
+			background: #cff;
+			color: #000000;
+		}
+		.contents{
+			clear: both;
+			border: 1px solid black;
+			margin-bottom: 4px;
+			overflow: hidden;
+			padding: 4px 4px 0px;
+		}
+		.span1{
+			float: right;
+		}
+		.admin_show_reply{
+			float: right;
+			background: #CCFFFF;
+			color: crimson;
+		}
+		.jump #links input{
+			float: left;
+			margin-right:5px ;
+			width: 30px;
+			height: 30px;
+			text-align: center;
+		}
+		.jump{
+			width: 460px;
+			margin: 0px auto;
+			text-align: center;
+		}
+		.show_content{
+			margin-top: 10px;
+			border-top:1px dashed sandybrown;
+		}
+		#admin_login{
+			clear: both;
+		}
